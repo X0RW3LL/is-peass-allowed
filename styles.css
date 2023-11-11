@@ -1,0 +1,48 @@
+div {
+	font-family: "Lucida Console", Courier, monospace;
+	align-content: center;
+	text-align: center;
+	//text-shadow: 0 0 5px #C8C8C8;
+	text-shadow: 0 0 20px black;
+	flex: 1;
+	background: rgba(150, 0, 0,0.95);
+}
+
+html, body {
+	background: url(assets/OffSec_Full_Color_Horizontal.svg);
+	background-size: 50px 30px;
+	background-repeat: repeat;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	min-height: 100%;
+	width: 100%;
+	margin: 0;
+	animation: blink 5s infinite;
+}
+
+h1 {
+	color: white;
+	font-size: xxx-large;
+}
+
+p {
+	font-size: xx-large;
+	color: white;
+}
+
+.warn {
+	color: yellow;
+	text-shadow: 0 0 4px black;
+}
+
+a {
+	color: cyan;
+	font-size: xxx-large;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.985;
+  }
+}
